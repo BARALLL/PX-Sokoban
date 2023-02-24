@@ -1,0 +1,2 @@
+int configureTerminal();
+int litClavier();

@@ -1,0 +1,18 @@
+\hypertarget{Tile_8h_source}{}\doxysection{Tile.\+h}
+\label{Tile_8h_source}\index{src/public/Tile.h@{src/public/Tile.h}}
+\mbox{\hyperlink{Tile_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#include <stdbool.h>}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{keyword}{typedef} \textcolor{keyword}{struct }\mbox{\hyperlink{structtile}{tile}} \{}
+\DoxyCodeLine{4     \textcolor{keywordtype}{bool} \mbox{\hyperlink{structtile_a8e619e3a520fc65040fca8f2e42b3aae}{isWalkable}};}
+\DoxyCodeLine{5     \textcolor{keywordtype}{bool} \mbox{\hyperlink{structtile_a91d23ab821504c93c66b77058eca93ba}{isPushable}};}
+\DoxyCodeLine{6     \textcolor{keywordtype}{bool} \mbox{\hyperlink{structtile_aa7f9a2f4b84ba8ec48fd8bce1cba9f23}{isTarget}};}
+\DoxyCodeLine{7 \} \mbox{\hyperlink{Tile_8h_aa704635cd414016a7cf6498bce394fb9}{tile}};}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{comment}{//Wall = !isWalkable \&\& !isPushable \&\& !isTarget}}
+\DoxyCodeLine{10 \textcolor{comment}{//Floor = isWalkable \&\& !isPushable \&\& !isTarget}}
+\DoxyCodeLine{11 \textcolor{comment}{//Box = !isWalkable \&\& isPushable \&\& !isTarget}}
+\DoxyCodeLine{12 \textcolor{comment}{//Target = isTarget}}
+
+\end{DoxyCode}
